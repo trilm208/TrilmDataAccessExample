@@ -36,3 +36,5 @@ var watch = System.Diagnostics.Stopwatch.StartNew();
 var result = await clientServices.ExecuteAsync(query);//return dataset
 
 Note: if you want List<> please your FastMember to connect datatable to List<>
+
+Support  async-await, compress data,cache ,call many stored procedure at a time,  transaction rollback.disconnect client from database,write once, use webservices forever 
