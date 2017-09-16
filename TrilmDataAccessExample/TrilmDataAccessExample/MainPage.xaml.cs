@@ -26,9 +26,11 @@ namespace TrilmDataAccessExample
             {
                 FacID = 2
             });
-             query += TrilmDataAccess.DataQuery.Create("Security", "ws_Session_List", new
+             query += TrilmDataAccess.DataQuery.Create("Security", "ws_Permissions_Save", new
             {
-                FacID = 1
+                FacID = 1,
+                UserID="",
+                PermissionID=""
             });
 
             var watch = System.Diagnostics.Stopwatch.StartNew();
