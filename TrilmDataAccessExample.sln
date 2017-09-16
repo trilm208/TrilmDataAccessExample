@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilmDataAccessExample", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrilmDataAccessExample.iOS", "TrilmDataAccessExample\TrilmDataAccessExample.iOS\TrilmDataAccessExample.iOS.csproj", "{DC3955D6-9BAB-4BEB-831F-86039BA9E69D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{3A7BD161-4532-4FBD-96D6-8C0BE7030368}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\@WebServices\WebServices.rar = ..\..\..\@WebServices\WebServices.rar
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
